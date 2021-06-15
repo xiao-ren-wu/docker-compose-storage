@@ -1,3 +1,6 @@
+# 1. [开启zookeeper集群](https://github.com/xiao-ren-wu/docker-compose-storage/blob/main/zookeeper-docker-compose.yml)
+# 2. 将127.0.0.1IP替换成本地ip
+# 3. 开启后，访问localhost:9000即可看到卡夫卡监控页面
 version: '3.2'
 services:
   kafka1:
